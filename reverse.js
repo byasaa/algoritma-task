@@ -8,6 +8,6 @@ function reverse(kalimat){
     for(x = arr.length - 1; x >= 0; x--){
         temp.push(arr[x]);
     }
-    console.log(temp);
+    console.log(temp.join(' '));
 }
 reverse('Aku belajar javascript');
