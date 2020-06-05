@@ -4,10 +4,10 @@ function reverse(kalimat){
         return false;
     }
     var arr = kalimat.split(" ");
-    var temp = "";
+    var temp = [];
     for(x = arr.length - 1; x >= 0; x--){
-        temp += arr[x]+ " ";
+        temp.push(arr[x]);
     }
     console.log(temp);
 }
-reverse('');
+reverse('Aku belajar javascript');
